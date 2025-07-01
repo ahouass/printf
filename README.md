@@ -20,16 +20,15 @@
 
 ```plaintext  
 |-- Makefile                    // Compilation rules for building the library  
-|-- ft_printf.c                 // Core implementation of the ft_printf function  
-|-- ft_printf.h                 // Header file containing function prototypes  
-|-- ft_printf_utils.c           // Helper functions for formatting and output  
-|-- ft_printf_utils_bonus.c     // Bonus-specific helper functions  
-|-- handle_d.c                  // Handles integer (%d, %i) formatting  
-|-- handle_p.c                  // Handles pointer (%p) formatting  
-|-- handle_s.c                  // Handles string (%s) formatting  
-|-- handle_s_bonus.c            // Bonus: Handles advanced string formatting  
-|-- handle_u.c                  // Handles unsigned integer (%u) formatting  
-|-- handle_x.c                  // Handles hexadecimal (%x, %X) formatting  
+|-- ft_printf.c                 // Core implementation of the ft_printf function
+|-- ft_printf.h                 // Header file containing function prototypes
+|-- ft_putchar.c                // Handles character
+|-- ft_putnbr.c                 // Handles integer (%d, %i) formatting  
+|-- ft_putnbr_pointer.c         // Handles pointer (%p) formatting  
+|-- ft_putchar.c                // Handles string (%s) formatting
+|-- ft_putnbr_unsigned.c        // Handles unsigned integer (%u) formatting  
+|-- ft_putnbr_hexa.c            // Handles hexadecimal (%x, %X) formatting
+|-- ft_strlen.c                 // Counting the length of a string
 ```  
 
 ---
