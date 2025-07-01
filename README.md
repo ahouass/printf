@@ -38,7 +38,7 @@
 
 ### 1. Clone the Repository  
 ```bash  
-git clone https://github.com/ahouass/printf.git ft_printf_42
+git clone https://github.com/ahouass/42-ft_printf_1337.git ft_printf_42
 cd ft_printf_42
 ```  
 
